@@ -17,17 +17,13 @@ class Scripture
     IEnumerable<Word> randomWords = _scripture.FindAll(x => x.getStatus() == false).OrderBy(x => rnd.Next()).Take(3);
     foreach(Word word in randomWords)
     {
-      string data = word.getWord();
-      
       word.setWord(true);
     }
   }
   public void ResetWords()
   {
     foreach(Word word in _scripture)
-    {
-      string data = word.getWord();
-      
+    { 
       word.setWord(false);
     }
   }
