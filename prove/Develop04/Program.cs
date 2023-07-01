@@ -3,13 +3,13 @@ using System;
 class Program
 {
     static void Main(string[] args)
-{
-    bool showMenu = true;
-    while (showMenu)
     {
-        showMenu = MainMenu();
+        bool showMenu = true;
+        while (showMenu)
+        {
+            showMenu = MainMenu();
+        }
     }
-}
     static Boolean MainMenu()
     {
         Console.Clear();

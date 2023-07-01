@@ -1,0 +1,4 @@
+0
+SimpleGoal:read,read,123,False
+EternalGoal:read forever,read forever,10000000
+ChecklistGoal:read books,read 3 books,30,500,3,0
