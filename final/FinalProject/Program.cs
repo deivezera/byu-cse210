@@ -4,6 +4,8 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello FinalProject World!");
+        Player player = new Player();
+
+        player.CreateCharacter();
     }
 }
