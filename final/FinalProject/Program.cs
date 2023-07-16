@@ -7,5 +7,7 @@ class Program
         Player player = new Player();
 
         player.CreateCharacter();
+        player.ListCharacters();
+        player.SimulateGameplay();
     }
 }
